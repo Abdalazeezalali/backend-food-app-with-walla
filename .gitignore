@@ -1,0 +1,56 @@
+
+# تبعيات node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# بيئة التطوير
+.env*.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js
+.next/
+out/
+dist/
+
+# builds
+build/
+
+# نظام التشغيل
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# السجلات
+logs
+*.log
+
+# قاعدة البيانات
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# نظام النسخ الاحتياطي
+*.backup
+*.bak
+
+# ملفات مؤقتة
+*.tmp
+*.temp
+
+# MongoDB (إذا كنت تستخدم محلياً)
+data/db/
+mongod.log
