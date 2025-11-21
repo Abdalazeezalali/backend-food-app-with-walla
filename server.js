@@ -9,7 +9,11 @@ connectDB();
 app.use(express.json());
 // npm i cors to connect front-end and back-end
 const cors = require('cors');
-app.use(cors());
+app.use(cors({
+  origin:"https://frontend-food-app-with-walla.vercel.app",
+  methods:["GET","POST","PUT","DELETE"],
+  credentials:true,
+}));
 
 app.use("/recipe", require("./routes/recipe"));
 app.use("/user", require("./routes/user"));
